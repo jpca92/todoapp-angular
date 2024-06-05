@@ -12,3 +12,14 @@
 <h2>{{'Hola'.repeat(4)}}</h2>
 <p>'la suma de 3+3 es: '{{3+3}}</p>
 <p>Hola {{name}} y tu edad es {{age}}</p>
+
+<hr>
+<img src="https://www.w3schools.com/howto/img_avatar.png" alt="">
+<input type="text" [value]="name">
+<button [disabled]="disabled">Click Me</button>
+
+<hr>
+<p>Profile: {{person.name}}</p>
+<img [src]="person.avatar" alt="">
+<input type="number" [value]="person.age">
+<button [disabled]="disabled">Click Me</button>
